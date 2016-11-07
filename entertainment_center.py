@@ -40,5 +40,5 @@ movies = [toy_story, avatar, mulan, ratatouille, aristocats, brave] #creates an 
 fresh_tomatoes.open_movies_page(movies)   #takes the array movies and addes them to webpage
 #print(media.Movie.VALID_RATINGS)
 print(media.Movie.__doc__)  #prints documentation of the class Movie
-print(media.Movie.__name__)
-print(media.Movie.__module__)
+print(media.Movie.__name__) #prints class name
+print(media.Movie.__module__)   #prints the module we imported/ name of file
