@@ -37,7 +37,7 @@ brave = media.Movie("Brave",
                              "https://www.youtube.com/watch?v=TEHWDA_6e3M")
 
 movies = [toy_story, avatar, mulan, ratatouille, aristocats, brave]
-#fresh_tomatoes.open_movies_page(movies)
+fresh_tomatoes.open_movies_page(movies)
 #print(media.Movie.VALID_RATINGS)
 print(media.Movie.__doc__)
 print(media.Movie.__name__)
