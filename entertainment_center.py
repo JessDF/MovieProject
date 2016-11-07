@@ -1,10 +1,10 @@
 import media
-import fresh_tomatoes
+import fresh_tomatoes   #links up the fresh_tomatoes and media pages
 
 toy_story = media.Movie("Toy Story",
                         "A story about a boy and his toys taht come to life",
                         "http://upload.wikimedia.org/wikipedia/en/1/13/Toy_Story.jpg",
-                        "https://www.youtube.com/watch?v=vwyZH85NQC4")
+                        "https://www.youtube.com/watch?v=vwyZH85NQC4")  #toy_story is an instance of the class, "Movie"
 #print(toy_story.storyline)
 
 avatar = media.Movie("Avatar",
@@ -36,9 +36,9 @@ brave = media.Movie("Brave",
                              "http://t0.gstatic.com/images?q=tbn:ANd9GcSuKUcpKMfuY1En5kWsJB2Xe-dqu-yYrQM6KTps3-Mti04lgmSY",
                              "https://www.youtube.com/watch?v=TEHWDA_6e3M")
 
-movies = [toy_story, avatar, mulan, ratatouille, aristocats, brave]
-fresh_tomatoes.open_movies_page(movies)
+movies = [toy_story, avatar, mulan, ratatouille, aristocats, brave] #creates an array of the "Movie" class instances
+fresh_tomatoes.open_movies_page(movies)   #takes the array movies and addes them to webpage
 #print(media.Movie.VALID_RATINGS)
-print(media.Movie.__doc__)
+print(media.Movie.__doc__)  #prints documentation of the class Movie
 print(media.Movie.__name__)
 print(media.Movie.__module__)
