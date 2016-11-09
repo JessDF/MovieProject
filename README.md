@@ -9,3 +9,14 @@ Steps I took:
 4. Dowloaded fresh_tomatoes.py and imported it to entertainment_center.py
 5. In entertainment_center.py --> created an array "movies" that held the 6 different instances.
 6. In enteratainment_center.py --> used the function "open_movies_page" from the fresh_tomatoes class and passed in the "movies" array.
+
+How to run the program:
+1. Unzip the movies.zip folder     //Different instructions if doing so on GitHub
+2. Once it is unzipped, open the internal folder (also called movies)
+3. Right click entertainment_center.py and choose - Edit with IDLE
+4. Clic "run", then click "Run Module"
+
+
+Note:
+- For this program you will need python 2.7
+- To install python 2.7 go to this website: https://www.python.org/downloads/
